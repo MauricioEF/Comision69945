@@ -1,0 +1,23 @@
+[
+	{
+		"firstName": "Jeremías",
+		"lastName": "Giacoboni",
+		"age": 33,
+		"course": "Backend",
+		"id": 1
+	},
+	{
+		"firstName": "Juan",
+		"lastName": "Silva",
+		"age": 27,
+		"course": "Backend",
+		"id": 2
+	},
+	{
+		"firstName": "Diego",
+		"lastName": "Olivera",
+		"age": 27,
+		"course": "Backend",
+		"id": 3
+	}
+]

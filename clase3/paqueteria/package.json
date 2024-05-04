@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1613.0",
+    "moment": "^2.16.0",
+    "papaconqueso": "^1.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.76.0",
+    "typescript": "^5.4.5"
+  }
+}
