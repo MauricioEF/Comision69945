@@ -1,0 +1,22 @@
+[
+	{
+		"code": "cervezozo303",
+		"price": 10,
+		"taste": "sweet",
+		"type": "fruit",
+		"origin": "Mexico",
+		"size": "medium",
+		"brand": "ABC Company",
+		"id": 1
+	},
+	{
+		"code": "Cervera023021",
+		"price": 150,
+		"taste": "Una cerveza de color ámbar profundo, con notas a caramelo y maltas tostadas. Tiene un equilibrio entre dulzura y amargor, con un final limpio y refrescante.",
+		"type": "Lager",
+		"origin": "Argentina",
+		"size": "355 ml",
+		"brand": "Cervecería Patagonia",
+		"id": 2
+	}
+]
