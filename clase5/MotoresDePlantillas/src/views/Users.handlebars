@@ -1,0 +1,13 @@
+{{#if users}}
+    <h1>Lista de usuarios</h1>
+{{else}}
+    <h1>No hay usuarios en este momento</h1>
+{{/if}}
+
+{{#each users}}
+    <div>
+        <p>{{this.firstName}}</p>
+        <p>{{this.lastName}}</p>
+    </div>
+    <br/>
+{{/each}}
