@@ -1,0 +1,25 @@
+[
+	{
+		"title": "Otro juego",
+		"description": "Juego feliz",
+		"price": "200000",
+		"thumbnails": [
+			{
+				"mimetype": "image/jpeg",
+				"path": "/files/videogames/1717727448069-bugfables.jpg",
+				"main": true
+			},
+			{
+				"mimetype": "image/jpeg",
+				"path": "/files/videogames/1717727448080-corekeeper.jpg",
+				"main": false
+			},
+			{
+				"mimetype": "image/jpeg",
+				"path": "/files/videogames/1717727448080-dave.jpg",
+				"main": false
+			}
+		],
+		"id": 1
+	}
+]

@@ -1,0 +1,20 @@
+<h1>Detalles del videojuego</h1>
+
+<p>{{videogame.title}}</p>
+
+<p>{{videogame.description}}</p>
+
+<img src={{mainImage.path}} style="width:400px; height:400px; object-fit:cover;">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div>
+    {{#each videogame.thumbnails}}
+        <img src={{this.path}} style="width:200px; height:200px; object-fit:cover;">
+    {{/each}}
+</div>
