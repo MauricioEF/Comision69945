@@ -1,0 +1,27 @@
+<h1>Crear Videojuego</h1>
+
+
+<form id="videogamesForm">
+    <label>Título</label>
+    <input name="title">
+    <br/>
+    <label>Descripción</label>
+    <input name="description">
+    <br/>
+    <label>Precio</label>
+    <input name="price">
+    <br/>
+    <input type="file" name="thumbnail" multiple>
+    <br/>
+    <input type="submit" >
+</form>
+
+
+<br/>
+
+<h1>Aquí deberia ver los juegos en tiempo real</h1>
+<div id="newGamesContainer"></div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/Home.js"></script>
