@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = process.env.PORT||8080;
 
-const CONNECTION_STRING = "mongodb+srv://CoderUser:123@clustercitoconqueso.wmzxvfa.mongodb.net/college?retryWrites=true&w=majority&appName=ClustercitoConQueso"
+const CONNECTION_STRING = "AQUI LA URL DE TU ATLAS, O DE TU LOCAL, RECUERDA QUE PARA TU LOCAL, LA URL ES 'mongodb://127.0.0.1:27017/aquiElNombreDeTuDB'"
 
 const connection = mongoose.connect(CONNECTION_STRING);
 
