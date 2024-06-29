@@ -1,0 +1,1 @@
+import studentsModel from "./models/student.model.js";
