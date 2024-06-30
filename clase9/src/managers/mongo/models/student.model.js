@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const collection = "Students";
+const collection = "Papa";
 
 const schema = new mongoose.Schema({
     firstName:String,

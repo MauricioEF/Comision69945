@@ -1,1 +1,18 @@
-<h1>Listo para trabajar</h1>
+<h1>Estudiantes</h1>
+
+{{#each students}}
+    <p>{{this.first_name}}</p>
+    <p>{{this.last_name}}</p>
+    <p>{{this.email}}</p>
+    <br/>
+{{/each}}
+
+{{#if hasPrevPage}}
+    <a href="/?page={{prevPage}}"><button>Anterior</button></a>
+{{/if}}
+
+<h4>{{page}}</h4>
+
+{{#if hasNextPage}}
+    <a href="/?page={{nextPage}}"><button>Siguiente</button></a>
+{{/if}}

@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+import mongoosePaginate from 'mongoose-paginate-v2';
 
-const collection  = "Users";
+const collection  = "Students";
 
 const schema = new mongoose.Schema({
     first_name:String,
@@ -11,6 +12,8 @@ const schema = new mongoose.Schema({
     },
     gender:String
 })
+
+schema.plugin(mongoosePaginate)
 
 const userModel = mongoose.model(collection,schema);
 
